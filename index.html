@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .main2{
+           
+            width: 20%;
+            background-color: rgb(228, 33, 33);
+            height: 100px;
+            width: 100px;
+            margin-top: -30vh;
+            margin-left: 40vh;
+        }
+        /* .radio
+        {
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        } */
+        #m1:checked ~ .main2{
+            transform: scaleX(2);
+        }
+        #m2:checked ~ .main2{
+            transform: rotateX(45deg);
+        }
+        #m3:checked ~ .main2{
+            transform: rotateY(55deg);
+        }
+        #m4:checked ~ .main2{
+            transform: rotateX(65deg);
+        }
+        #m5:checked ~ .main2{
+            transform: rotateY(75deg);
+        }
+        #m6:checked ~ .main2{
+            transform: rotateX(85deg);
+        }
+        #m7:checked ~ .main2{
+            transform: rotateY(95deg);
+        }
+        #m8:checked ~ .main2{
+            transform: rotateX(105deg);
+        }
+        #m9:checked ~ .main2{
+            transform: rotateY(120deg);
+        }
+        #m10:checked ~ .main2{
+            transform: rotateX(145deg);
+        }
+        #m11:checked ~ .main2{
+            transform: rotateY(170deg);
+        }
+        #m12:checked ~ .main2{
+            transform: skew(20deg,20deg);
+        }
+        #m13:checked ~ .main2{
+            transform: skew(40deg,40deg);
+        }
+        #m14:checked ~ .main2{
+            transform: skew(60deg,60deg);
+        }
+        #m15:checked ~ .main2{
+            transform:skew(60deg,60deg);
+        }
+        #m16:checked ~ .main2{
+            transform:skew(80deg,80deg) ;
+        }
+        #m17:checked ~ .main2{
+            transform:skew(100deg,100deg) ;
+        }
+        
+
+        
+
+        
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="radio">
+        <input type="radio" id="m1" name="trans">transform:scale(2); <br>
+        <input type="radio" id="m2" name="trans">transform:rotateX(45deg); <br>
+        <input type="radio" id="m3" name="trans">transform:rotateY(55deg); <br>
+        <input type="radio" id="m4" name="trans">transform:rotateX(65deg); <br>
+        <input type="radio" id="m5" name="trans">transform:rotateY(75deg); <br>
+        <input type="radio" id="m6" name="trans">transform:rotateX(85deg); <br>
+        <input type="radio" id="m7" name="trans">transform:rotateY(95deg); <br>
+        <input type="radio" id="m8" name="trans">transform:rotateX(105deg); <br>
+        <input type="radio" id="m9" name="trans">transform:rotateY(120deg); <br>
+        <input type="radio" id="m10" name="trans">transform:rotateX(145deg); <br>
+        <input type="radio" id="m11" name="trans">transform:rotateY(170deg); <br>
+        <input type="radio" id="m13" name="trans">transform:skew(20der,20deg) <br>
+        <input type="radio" id="m14" name="trans">transform:skew(40der,40deg) <br>
+        <input type="radio" id="m15" name="trans">transform:skew(60der,60deg) <br>
+        <input type="radio" id="m16" name="trans">transform:skew(80der,80deg) <br>
+        <input type="radio" id="m17" name="trans">transform:skew(100der,100deg) <br>
+ 
+        <div class="main2">  
+        </div>
+    </div>
+    
+</body>
+</html>
